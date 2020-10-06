@@ -32,7 +32,7 @@
           </div>
           <div class="text-center md:text-right">
             <a
-              href="https://github.com/lihbr/prismic-demo-basic"
+              href="https://github.com/lihbr/prismic-demo-basic#readme"
               class="bg-orange-600 hover:bg-orange-700 transition-colors duration-300 ease-in-out text-white block md:inline-block px-8 py-4 font-bold rounded-lg"
               target="_blank"
               rel="noopener"
