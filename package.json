@@ -1,0 +1,38 @@
+{
+  "name": "prismic-demo-basic",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue ."
+  },
+  "engines": {
+    "node": ">=10.16.3",
+    "yarn": ">=1.13.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
+  },
+  "dependencies": {
+    "core-js": "3.6.5",
+    "nuxt": "2.14.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-module": "2.0.0",
+    "@nuxtjs/tailwindcss": "3.1.0",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.10.0",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-loader": "4.0.2",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-vue": "7.0.1",
+    "husky": "4.3.0",
+    "prettier": "2.0.5"
+  }
+}
