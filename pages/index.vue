@@ -7,11 +7,7 @@
       class="md:flex md:items-stretch rounded-lg overflow-hidden shadow-2xl bg-white"
     >
       <picture class="flex-1">
-        <img
-          src="https://images.unsplash.com/photo-1541427468627-a89a96e5ca1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-          alt="A cool train"
-          class="object-cover h-full w-full"
-        />
+        <prismic-image :field="data.image" class="object-cover h-full w-full" />
       </picture>
       <article class="flex-1">
         <div class="p-8 flex flex-col h-full justify-between space-y-8">
@@ -19,26 +15,17 @@
             <h1
               class="font-bold text-2xl md:text-4xl leading-snug text-orange-600"
             >
-              Experience Train Like Never Before
+              {{ $prismic.asText(data.title) }}
             </h1>
-            <p>
-              A train is <strong>a form of rail transport</strong> consisting of
-              a series of connected vehicles that generally run along a railroad
-              (or railway) track to transport passengers or cargo (also known as
-              "freight" or "goods"). The word <em>"train"</em> comes from the
-              Old French trahiner, derived from the Latin trahere meaning "to
-              pull" or "to draw".
-            </p>
+            <prismic-rich-text :field="data.description" />
           </div>
           <div class="text-center md:text-right">
-            <a
-              href="https://github.com/lihbr/prismic-demo-basic#readme"
+            <prismic-link
+              :field="data.cta_link"
               class="bg-orange-600 hover:bg-orange-700 transition-colors duration-300 ease-in-out text-white block md:inline-block px-8 py-4 font-bold rounded-lg"
-              target="_blank"
-              rel="noopener"
             >
-              Get Back on Track
-            </a>
+              {{ data.cta_label }}
+            </prismic-link>
           </div>
         </div>
       </article>
@@ -47,7 +34,34 @@
 </template>
 
 <script>
-export default {};
+export default {
+  async asyncData({ $prismic }) {
+    const data = (await $prismic.api.getSingle("landing")).data;
+
+    return { data };
+  },
+  head() {
+    const { meta_title, meta_description } = this.data;
+
+    const head = {
+      meta: []
+    };
+
+    if (meta_title) {
+      head.title = meta_title;
+    }
+
+    if (meta_description) {
+      head.meta.push({
+        hid: "description",
+        name: "description",
+        content: meta_description
+      });
+    }
+
+    return head;
+  }
+};
 </script>
 
 <style></style>

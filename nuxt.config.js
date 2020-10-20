@@ -27,8 +27,22 @@ export default {
     // https://go.nuxtjs.dev/eslint
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/tailwindcss
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
+    // https://prismic.nuxtjs.org
+    "@nuxtjs/prismic"
   ],
+
+  tailwindcss: {
+    config: {
+      purge: {
+        content: ["app/prismic/**/*.vue"]
+      }
+    }
+  },
+
+  prismic: {
+    endpoint: "https://example-preview-validation.cdn.prismic.io/api/v2"
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [],
