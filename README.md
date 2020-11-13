@@ -2,8 +2,8 @@
 
 This simple demo is meant to showcase how easy it is to get started and integrate Prismic to an existing website. It uses Nuxt.js but the process is similar using other frameworks.
 
-- [✨ &nbsp;Try Prismic](https://prismic.io/pricing)
-- [📖 &nbsp;Prismic Nuxt documentation](https://prismic.io/docs/vuejs/getting-started/prismic-nuxt)
+- [✨ &nbsp;Try Prismic](https://prismic.io/pricing?utm_campaign=devexp&utm_source=github&utm_medium=demobasic)
+- [📖 &nbsp;Prismic Nuxt documentation](https://prismic.io/docs/vuejs/getting-started/prismic-nuxt?utm_campaign=devexp&utm_source=github&utm_medium=demobasic)
 - [💚 &nbsp;Prismic Nuxt Module](https://prismic.nuxtjs.org)
 
 ## Build Setup
