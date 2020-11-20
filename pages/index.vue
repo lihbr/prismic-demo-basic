@@ -6,13 +6,13 @@
     <section
       class="md:flex md:items-stretch rounded-lg overflow-hidden shadow-2xl bg-white"
     >
-      <picture class="flex-1">
+      <figure class="flex-1">
         <img
           src="https://images.unsplash.com/photo-1541427468627-a89a96e5ca1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
           alt="A cool train"
           class="object-cover h-full w-full"
         />
-      </picture>
+      </figure>
       <article class="flex-1">
         <div class="p-8 flex flex-col h-full justify-between space-y-8">
           <div class="space-y-8">
