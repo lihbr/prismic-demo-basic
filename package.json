@@ -1,6 +1,7 @@
 {
   "name": "prismic-demo-basic",
   "version": "1.0.0",
+  "description": "A basic demo showcasing how it is to integrate Prismic to your website",
   "private": true,
   "license": "MIT",
   "scripts": {
