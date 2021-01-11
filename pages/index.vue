@@ -1,43 +1,46 @@
 <!-- HEALTH:HIGH __page__home -->
 <template>
   <div
-    class="__page__home min-h-screen flex items-center container p-5 mx-auto"
+    class="__page__home min-h-screen flex items-center container p-5 mx-auto bg-white shadow-2xl"
   >
-    <section
-      class="md:flex md:items-stretch rounded-lg overflow-hidden shadow-2xl bg-white"
-    >
-      <figure class="flex-1">
-        <img
-          src="https://images.unsplash.com/photo-1541427468627-a89a96e5ca1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-          alt="A cool train"
-          class="object-cover h-full w-full"
-        />
+    <section class="md:flex md:flex-row-reverse">
+      <figure class="md:flex-1 md:self-center">
+        <div class="relative w-full" :style="{ paddingBottom: '56.25%' }">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/G6J2kl1aVao"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="absolute w-full h-full"
+          ></iframe>
+        </div>
       </figure>
       <article class="flex-1">
         <div class="p-8 flex flex-col h-full justify-between space-y-8">
-          <div class="space-y-8">
-            <h1
-              class="font-bold text-2xl md:text-4xl leading-snug text-orange-600"
-            >
-              Experience Train Like Never Before
-            </h1>
-            <p>
-              A train is <strong>a form of rail transport</strong> consisting of
-              a series of connected vehicles that generally run along a railroad
-              (or railway) track to transport passengers or cargo (also known as
-              "freight" or "goods"). The word <em>"train"</em> comes from the
-              Old French trahiner, derived from the Latin trahere meaning "to
-              pull" or "to draw".
-            </p>
-          </div>
-          <div class="text-center md:text-right">
+          <h1 class="text-2xl md:text-4xl leading-snug">
+            JavaScript Array Map Method Practice in 5 Minutes
+          </h1>
+          <p>
+            Arrays are an essential part of <em>JavaScript</em>. If you want to
+            get better at JavaScript, you have to know how to effectively use
+            arrays, especially the built-in array methods like map, reduce,
+            filter, sort, every, some, etc. In this series, we'll cover the
+            JavaScript array methods you <strong>need</strong> to know to become
+            a web developer.
+          </p>
+          <p>
+            Learn to use the Map() function to transform items in an array.
+          </p>
+          <div class="text-center md:text-left">
             <a
-              href="https://github.com/lihbr/prismic-demo-basic#readme"
-              class="bg-orange-600 hover:bg-orange-700 transition-colors duration-300 ease-in-out text-white block md:inline-block px-8 py-4 font-bold rounded-lg"
+              href="https://www.youtube.com/watch?v=3LOEGS4qcRM&list=PLDlWc9AfQBfZGZXFb_1tcRKwtCavR7AfT"
+              class="bg-red-500 hover:bg-red-600 transition-colors duration-300 ease-in-out text-white block md:inline-block px-8 py-4 font-bold rounded-lg"
               target="_blank"
               rel="noopener"
             >
-              Get Back on Track
+              Discover Similar Courses
             </a>
           </div>
         </div>
