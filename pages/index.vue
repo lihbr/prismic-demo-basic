@@ -30,9 +30,7 @@
             JavaScript array methods you <strong>need</strong> to know to become
             a web developer.
           </p>
-          <p>
-            Learn to use the Map() function to transform items in an array.
-          </p>
+          <p>Learn to use the Map() function to transform items in an array.</p>
           <div class="text-center md:text-left">
             <a
               href="https://www.youtube.com/watch?v=3LOEGS4qcRM&list=PLDlWc9AfQBfZGZXFb_1tcRKwtCavR7AfT"
