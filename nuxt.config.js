@@ -27,8 +27,13 @@ export default {
     // https://go.nuxtjs.dev/eslint
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/tailwindcss
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/prismic"
   ],
+
+  prismic: {
+    endpoint: "https://prismic-demo-james.cdn.prismic.io/api/v2"
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [],
