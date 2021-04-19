@@ -17,7 +17,7 @@
         <div class="p-8 flex flex-col h-full justify-between space-y-8">
           <div class="space-y-8">
             <h1
-              class="font-bold text-2xl md:text-4xl leading-snug text-orange-600"
+              class="font-bold text-2xl md:text-4xl leading-snug text-yellow-600"
             >
               Experience Train Like Never Before
             </h1>
@@ -33,7 +33,7 @@
           <div class="text-center md:text-right">
             <a
               href="https://github.com/lihbr/prismic-demo-basic#readme"
-              class="bg-orange-600 hover:bg-orange-700 transition-colors duration-300 ease-in-out text-white block md:inline-block px-8 py-4 font-bold rounded-lg"
+              class="bg-yellow-600 hover:bg-yellow-700 transition-colors duration-300 ease-in-out text-white block md:inline-block px-8 py-4 font-bold rounded-lg"
               target="_blank"
               rel="noopener"
             >
