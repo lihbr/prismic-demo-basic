@@ -3,7 +3,7 @@
   <div
     class="__page__home min-h-screen flex items-center container p-5 mx-auto bg-white shadow-2xl"
   >
-    <section class="md:flex md:flex-row-reverse">
+    <section class="flex-1 md:flex md:flex-row-reverse">
       <figure class="md:flex-1 md:self-center">
         <div class="relative w-full" :style="{ paddingBottom: '56.25%' }">
           <iframe

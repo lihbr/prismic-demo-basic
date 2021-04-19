@@ -9,7 +9,7 @@
 
 <style>
 html {
-  @apply font-sans bg-orange-100;
+  @apply font-sans bg-yellow-100;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
